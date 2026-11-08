@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="SafeSector | Professional HDD & SSD Data Recovery Services">
+    <meta name="description" content="Specialized hard drive repair & data recovery. From click of death to firmware corruption — we bring drives back to life. Free diagnosis, 99% success rate, 24/7 emergency service.">
+    <meta name="keywords" content="HDD recovery, data recovery, hard drive repair, click of death, PCB swap, firmware recovery, SSD recovery, cleanroom data recovery, PC3000">
+    <meta name="author" content="ThemeStudio">
+    <title>SafeSector · Search</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="assets/imgs/logo.png" rel="icon" type="image/png">
+</head>
+<body id="top" data-page="search">
+    <div class="search-page-wrapper">
+        <!-- Decorative circles -->
+        <div class="search-bg-circle search-bg-circle-1"></div>
+        <div class="search-bg-circle search-bg-circle-2"></div>
+        <div class="search-bg-circle search-bg-circle-3"></div>
+
+        <!-- ===== Scroll Progress Bar ===== -->
+        <div class="scroll-progress-container">
+            <div class="scroll-progress-bar" id="scrollProgressBar"></div>
+        </div>
+
+        <!-- ===== HEADER ===== -->
+        <header class="site-header">
+            <div class="header-container">
+                <div class="logo-area">
+                    <a href="index.html" class="logo-link">
+                        <img src="assets/imgs/logo.png" alt="SafeSector Logo">
+                        <span class="logo-text" data-i18n="brand">SafeSector</span>
+                    </a>
+                </div>
+
+                <nav class="main-nav" aria-label="Main navigation">
+                    <ul class="nav-list">
+                        <li><a href="index.html#home" class="nav-link" data-i18n="nav.home">Home</a></li>
+                        <li><a href="index.html#services" class="nav-link" data-i18n="nav.services">Services</a></li>
+                        <li><a href="index.html#why-us" class="nav-link" data-i18n="nav.why">Why Us</a></li>
+                        <li><a href="index.html#pricing" class="nav-link" data-i18n="nav.pricing">Pricing</a></li>
+                        <li><a href="index.html#faq" class="nav-link" data-i18n="nav.faq">FAQ</a></li>
+                        <li><a href="index.html#contact" class="nav-link" data-i18n="nav.contact">Contact</a></li>
+                    </ul>
+                </nav>
+
+                <div class="header-controls">
+                    <div class="header-search-bar">
+                        <form class="search-wrapper" action="search.html" method="GET">
+                            <input type="text" class="search-input" name="q" placeholder="Search..." required data-i18n-ph="ph.search">
+                            <button type="submit" class="search-btn" aria-label="Search" data-i18n-aria="aria.search">
+                                <svg class="icon" aria-hidden="true"><use href="assets/sprites/sprites.svg#icon-search"></use></svg>
+                            </button>
+                        </form>
+                    </div>
+
+                    <div class="lang-dropdown">
+                        <button class="lang-btn" id="langBtn" aria-haspopup="true" aria-expanded="false" aria-label="Change language" data-i18n-aria="aria.lang">
+                            <svg class="icon" aria-hidden="true"><use href="assets/sprites/sprites.svg#icon-globe"></use></svg>
+                            <span id="langBtnLabel">EN</span>
+                        </button>
+                        <ul class="lang-menu">
+                            <li><a href="#" data-lang="en" class="active">English</a></li>
+                            <li><a href="#" data-lang="fa">فارسی</a></li>
+                        </ul>
+                    </div>
+
+                    <button class="menu-toggle" id="menuToggle" aria-label="Open menu" aria-expanded="false" data-i18n-aria="aria.menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </div>
+            </div>
+        </header>
+
+        <!-- ===== FULLSCREEN MOBILE OVERLAY MENU ===== -->
+        <div class="mobile-overlay" id="mobileOverlay">
+            <nav class="mobile-nav-container">
+                <div class="mobile-search">
+                    <form class="search-wrapper" action="search.html" method="GET">
+                        <input type="text" class="search-input" name="q" placeholder="Search..." required data-i18n-ph="ph.search">
+                        <button type="submit" class="search-btn" aria-label="Search" data-i18n-aria="aria.search">
+                            <svg class="icon" aria-hidden="true"><use href="assets/sprites/sprites.svg#icon-search"></use></svg>
+                        </button>
+                    </form>
+                </div>
+
+                <ul class="mobile-nav-list">
+                    <li><a href="index.html#home" class="mobile-nav-link" data-i18n="nav.home">Home</a></li>
+                    <li><a href="index.html#services" class="mobile-nav-link" data-i18n="nav.services">Services</a></li>
+                    <li><a href="index.html#why-us" class="mobile-nav-link" data-i18n="nav.why">Why Us</a></li>
+                    <li><a href="index.html#pricing" class="mobile-nav-link" data-i18n="nav.pricing">Pricing</a></li>
+                    <li><a href="index.html#faq" class="mobile-nav-link" data-i18n="nav.faq">FAQ</a></li>
+                    <li><a href="index.html#contact" class="mobile-nav-link" data-i18n="nav.contact">Contact</a></li>
+                </ul>
+
+                <div class="mobile-lang">
+                    <div class="mobile-lang-options">
+                        <a href="#" data-lang="en" class="active">English</a>
+                        <a href="#" data-lang="fa">فارسی</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+        <main>
+            <!-- Search Hero Section -->
+            <section class="search-hero">
+                <h1 class="search-hero-title" data-i18n-html="search.title"><span class="green-underline">Search</span> Our Lab</h1>
+                <p class="search-hero-sub" data-i18n="search.sub">Find articles, services, and recovery insights from our engineers.</p>
+
+                <div class="search-form-container">
+                    <input type="text" id="searchInput" class="search-input-main" placeholder="e.g., click of death, SMR, firmware..." aria-label="Search SafeSector" data-i18n-ph="search.ph">
+                    <button id="searchButton" class="search-submit-btn">
+                        <svg class="icon" aria-hidden="true"><use href="assets/sprites/sprites.svg#icon-search"></use></svg>
+                        <span data-i18n="search.btn">Search</span>
+                    </button>
+                </div>
+            </section>
+
+            <!-- Search Results Section -->
+            <section class="search-results-section" id="resultsSection">
+                <div class="results-header" id="resultsHeader" style="display: none;">
+                    <span class="results-count" id="resultsCount"></span>
+                </div>
+
+                <div class="results-grid" id="resultsGrid"></div>
+
+                <div class="back-to-main-row">
+                    <a href="index.html" class="back-to-main-search" data-i18n="search.back">Back to Home</a>
+                </div>
+            </section>
+        </main>
+
+        <!-- ===== FOOTER ===== -->
+        <footer class="site-footer">
+            <div class="footer-container">
+                <div class="footer-copyright" data-i18n="footer.copyright">
+                    © 2026 SafeSector. All rights reserved.
+                </div>
+                <div class="footer-links">
+                    <a href="index.html" data-i18n="nav.home">Home</a> ·
+                    <a href="index.html#services" data-i18n="nav.services">Services</a> ·
+                    <a href="index.html#pricing" data-i18n="nav.pricing">Pricing</a> ·
+                    <a href="index.html#faq" data-i18n="nav.faq">FAQ</a> ·
+                    <a href="index.html#blog" data-i18n="nav.blog">Blog</a>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <!-- Scroll to Top Button -->
+    <button id="scrollToTopBtn" class="scroll-to-top" aria-label="Scroll to top" data-i18n-aria="aria.top">
+        <svg class="icon" aria-hidden="true"><use href="assets/sprites/sprites.svg#icon-arrow-up"></use></svg>
+    </button>
+
+    <script src="assets/js/lang.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>

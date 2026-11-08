@@ -1,0 +1,735 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="SafeSector | Professional HDD & SSD Data Recovery Services">
+    <meta name="description" content="Specialized hard drive repair & data recovery. From click of death to firmware corruption — we bring drives back to life. Free diagnosis, 99% success rate, 24/7 emergency service.">
+    <meta name="keywords" content="HDD recovery, data recovery, hard drive repair, click of death, PCB swap, firmware recovery, SSD recovery, cleanroom data recovery, PC3000">
+    <meta name="author" content="ThemeStudio">
+    <title>SafeSector · Professional HDD Recovery</title>
+    <link rel="stylesheet" href="assets/css/swiper.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="assets/imgs/logo.png" rel="icon" type="image/png">
+</head>
+<body id="top" data-page="home">
+    <!-- ===== Scroll Progress Bar ===== -->
+    <div class="scroll-progress-container">
+        <div class="scroll-progress-bar" id="scrollProgressBar"></div>
+    </div>
+
+    <!-- ===== HEADER ===== -->
+    <header class="site-header">
+        <div class="header-container">
+            <!-- Left: Logo/Name -->
+            <div class="logo-area">
+                <a href="index.html" class="logo-link">
+                    <img src="assets/imgs/logo.png" alt="SafeSector Logo">
+                    <span class="logo-text" data-i18n="brand">SafeSector</span>
+                </a>
+            </div>
+
+            <!-- Center: navigation (Hidden on Mobile) -->
+            <nav class="main-nav" aria-label="Main navigation">
+                <ul class="nav-list">
+                    <li><a href="index.html#home" class="nav-link" data-i18n="nav.home">Home</a></li>
+                    <li><a href="index.html#services" class="nav-link" data-i18n="nav.services">Services</a></li>
+                    <li><a href="index.html#why-us" class="nav-link" data-i18n="nav.why">Why Us</a></li>
+                    <li><a href="index.html#pricing" class="nav-link" data-i18n="nav.pricing">Pricing</a></li>
+                    <li><a href="index.html#faq" class="nav-link" data-i18n="nav.faq">FAQ</a></li>
+                    <li><a href="index.html#contact" class="nav-link" data-i18n="nav.contact">Contact</a></li>
+                </ul>
+            </nav>
+
+            <!-- Right: Controls Group (Search, Language, Menu Toggle) -->
+            <div class="header-controls">
+                <div class="header-search-bar">
+                    <form class="search-wrapper" action="search.html" method="GET">
+                        <input type="text" class="search-input" name="q" placeholder="Search..." required data-i18n-ph="ph.search">
+                        <button type="submit" class="search-btn" aria-label="Search" data-i18n-aria="aria.search">
+                            <svg class="icon" aria-hidden="true"><use href="assets/sprites/sprites.svg#icon-search"></use></svg>
+                        </button>
+                    </form>
+                </div>
+
+                <!-- Language Switcher -->
+                <div class="lang-dropdown">
+                    <button class="lang-btn" id="langBtn" aria-haspopup="true" aria-expanded="false" aria-label="Change language" data-i18n-aria="aria.lang">
+                        <svg class="icon" aria-hidden="true"><use href="assets/sprites/sprites.svg#icon-globe"></use></svg>
+                        <span id="langBtnLabel">EN</span>
+                    </button>
+                    <ul class="lang-menu">
+                        <li><a href="#" data-lang="en" class="active">English</a></li>
+                        <li><a href="#" data-lang="fa">فارسی</a></li>
+                    </ul>
+                </div>
+
+                <!-- Mobile Menu Toggle Button (Visible only on Mobile) -->
+                <button class="menu-toggle" id="menuToggle" aria-label="Open menu" aria-expanded="false" data-i18n-aria="aria.menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- ===== FULLSCREEN MOBILE OVERLAY MENU ===== -->
+    <div class="mobile-overlay" id="mobileOverlay">
+        <nav class="mobile-nav-container">
+            <div class="mobile-search">
+                <form class="search-wrapper" action="search.html" method="GET">
+                    <input type="text" class="search-input" name="q" placeholder="Search..." required data-i18n-ph="ph.search">
+                    <button type="submit" class="search-btn" aria-label="Search" data-i18n-aria="aria.search">
+                        <svg class="icon" aria-hidden="true"><use href="assets/sprites/sprites.svg#icon-search"></use></svg>
+                    </button>
+                </form>
+            </div>
+
+            <ul class="mobile-nav-list">
+                <li><a href="index.html#home" class="mobile-nav-link" data-i18n="nav.home">Home</a></li>
+                <li><a href="index.html#services" class="mobile-nav-link" data-i18n="nav.services">Services</a></li>
+                <li><a href="index.html#why-us" class="mobile-nav-link" data-i18n="nav.why">Why Us</a></li>
+                <li><a href="index.html#pricing" class="mobile-nav-link" data-i18n="nav.pricing">Pricing</a></li>
+                <li><a href="index.html#faq" class="mobile-nav-link" data-i18n="nav.faq">FAQ</a></li>
+                <li><a href="index.html#contact" class="mobile-nav-link" data-i18n="nav.contact">Contact</a></li>
+            </ul>
+
+            <div class="mobile-lang">
+                <div class="mobile-lang-options">
+                    <a href="#" data-lang="en" class="active">English</a>
+                    <a href="#" data-lang="fa">فارسی</a>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <main>
+        <!-- ===== HERO SECTION ===== -->
+        <section id="home" class="hero-section">
+            <div class="hero-overlay"></div>
+            <div class="hero-container">
+                <div class="hero-content">
+                    <h1 class="hero-title" data-i18n-html="hero.title">Your Data,<br> Our <span class="neon-green">Precision</span></h1>
+                    <p class="hero-desc" data-i18n="hero.desc">Specialized hard drive repair & data recovery. From click of death to firmware corruption — we bring drives back to life.</p>
+                    <div class="hero-actions">
+                        <a href="#contact" class="btn btn-primary" data-i18n="btn.diagnosis">Free Diagnosis</a>
+                        <a href="#services" class="btn btn-outline" data-i18n="btn.services">Our Services</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== SERVICES & SPECIALIZATIONS ===== -->
+        <section id="services" class="section services-section">
+            <div class="container">
+                <h2 class="section-title" data-i18n-html="services.title"><span class="green-underline">Specialized</span> Repairs</h2>
+                <p class="section-subtitle" data-i18n="services.sub">We fix what others can't. Advanced HDD & SSD restoration.</p>
+                <div class="services-grid">
+                    <div class="service-card">
+                        <div class="card-front">
+                            <svg class="icon service-icon" aria-hidden="true"><use href="assets/sprites/sprites.svg#icon-skull"></use></svg>
+                            <h3 data-i18n="svc1.name">Click of Death</h3>
+                        </div>
+                        <div class="card-hover-desc">
+                            <p data-i18n="svc1.desc">Stuck heads, bad sectors, or damaged platters — we perform cleanroom head swaps and firmware calibration.</p>
+                        </div>
+                    </div>
+                    <div class="service-card">
+                        <div class="card-front">
+                            <svg class="icon service-icon" aria-hidden="true"><use href="assets/sprites/sprites.svg#icon-microchip"></use></svg>
+                            <h3 data-i18n="svc2.name">PCB Board Swap/Repair</h3>
+                        </div>
+                        <div class="card-hover-desc">
+                            <p data-i18n="svc2.desc">Burnt PCB, shorted TVS diodes, ROM adaptation. We repair or replace logic boards with donor matching.</p>
+                        </div>
+                    </div>
+                    <div class="service-card">
+                        <div class="card-front">
+                            <svg class="icon service-icon" aria-hidden="true"><use href="assets/sprites/sprites.svg#icon-terminal"></use></svg>
+                            <h3 data-i18n="svc3.name">Firmware Corruption</h3>
+                        </div>
+                        <div class="card-hover-desc">
+                            <p data-i18n="svc3.desc">G-list, translator, SMART corruption. Using PC3000 & deep SPI access to rebuild firmware modules.</p>
+                        </div>
+                    </div>
+                    <div class="service-card">
+                        <div class="card-front">
+                            <svg class="icon service-icon" aria-hidden="true"><use href="assets/sprites/sprites.svg#icon-clone"></use></svg>
+                            <h3 data-i18n="svc4.name">Data Migration & Cloning</h3>
+                        </div>
+                        <div class="card-hover-desc">
+                            <p data-i18n="svc4.desc">Full sector-by-sector cloning onto healthy media, even with unstable heads or degraded surface.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== TRUST & ACHIEVEMENTS (Stats Counter) ===== -->
+        <section id="why-us" class="section stats-section">
+            <div class="container">
+                <div class="stats-row">
+                    <div class="stat-item">
+                        <div class="stat-icon">
+                            <svg class="icon" aria-hidden="true"><use href="assets/sprites/sprites.svg#icon-hdd"></use></svg>
+                        </div>
+                        <div class="stat-number" data-target="1200">0</div>
+                        <div class="stat-label" data-i18n="stats.drives">Drives Recovered</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-icon">
+                            <svg class="icon" aria-hidden="true"><use href="assets/sprites/sprites.svg#icon-check-circle"></use></svg>
+                        </div>
+                        <div class="stat-number" data-target="99">0</div>
+                        <div class="stat-label" data-i18n="stats.success">Success Rate</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-icon">
+                            <svg class="icon" aria-hidden="true"><use href="assets/sprites/sprites.svg#icon-clock"></use></svg>
+                        </div>
+                        <div class="stat-number emergency-stat">24/7</div>
+                        <div class="stat-label" data-i18n="stats.emergency">Emergency Service</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== PRICING TABLE ===== -->
+        <section id="pricing" class="section pricing-section">
+            <div class="container">
+                <h2 class="section-title" data-i18n-html="pricing.title">Transparent <span class="green-underline">Pricing</span></h2>
+                <div class="pricing-grid">
+                    <div class="pricing-card">
+                        <h3 class="pricing-name" data-i18n="pricing.logical">Logical Recovery</h3>
+                        <div class="pricing-capacities">
+                            <div class="cap-row"><span>500GB HDD</span><span class="cap-price" data-price="199">$199</span></div>
+                            <div class="cap-row"><span>1TB HDD</span><span class="cap-price" data-price="249">$249</span></div>
+                            <div class="cap-row"><span>2TB HDD</span><span class="cap-price" data-price="299">$299</span></div>
+                            <div class="cap-row"><span>3TB HDD</span><span class="cap-price" data-price="349">$349</span></div>
+                            <div class="cap-row"><span>4TB HDD</span><span class="cap-price" data-price="399">$399</span></div>
+                            <div class="cap-row"><span>5TB HDD</span><span class="cap-price" data-price="449">$449</span></div>
+                            <div class="cap-row"><span>6TB HDD</span><span class="cap-price" data-price="499">$499</span></div>
+                            <div class="cap-row"><span>8TB HDD</span><span class="cap-price" data-price="599">$599</span></div>
+                            <div class="cap-row"><span>10TB HDD</span><span class="cap-price" data-price="699">$699</span></div>
+                        </div>
+                    </div>
+                    <div class="pricing-card">
+                        <h3 class="pricing-name" data-i18n="pricing.physical">Physical Repair</h3>
+                        <div class="pricing-capacities">
+                            <div class="cap-row"><span>500GB HDD</span><span class="cap-price" data-price="399">$399</span></div>
+                            <div class="cap-row"><span>1TB HDD</span><span class="cap-price" data-price="449">$449</span></div>
+                            <div class="cap-row"><span>2TB HDD</span><span class="cap-price" data-price="499">$499</span></div>
+                            <div class="cap-row"><span>3TB HDD</span><span class="cap-price" data-price="549">$549</span></div>
+                            <div class="cap-row"><span>4TB HDD</span><span class="cap-price" data-price="599">$599</span></div>
+                            <div class="cap-row"><span>5TB HDD</span><span class="cap-price" data-price="649">$649</span></div>
+                            <div class="cap-row"><span>6TB HDD</span><span class="cap-price" data-price="699">$699</span></div>
+                            <div class="cap-row"><span>8TB HDD</span><span class="cap-price" data-price="799">$799</span></div>
+                            <div class="cap-row"><span>10TB HDD</span><span class="cap-price" data-price="899">$899</span></div>
+                        </div>
+                    </div>
+                    <div class="pricing-card">
+                        <h3 class="pricing-name" data-i18n="pricing.pcb">PCB Board Swap/Repair</h3>
+                        <div class="pricing-capacities">
+                            <div class="cap-row"><span>500GB HDD</span><span class="cap-price" data-price="149">$149</span></div>
+                            <div class="cap-row"><span>1TB HDD</span><span class="cap-price" data-price="179">$179</span></div>
+                            <div class="cap-row"><span>2TB HDD</span><span class="cap-price" data-price="199">$199</span></div>
+                            <div class="cap-row"><span>3TB HDD</span><span class="cap-price" data-price="229">$229</span></div>
+                            <div class="cap-row"><span>4TB HDD</span><span class="cap-price" data-price="249">$249</span></div>
+                            <div class="cap-row"><span>5TB HDD</span><span class="cap-price" data-price="279">$279</span></div>
+                            <div class="cap-row"><span>6TB HDD</span><span class="cap-price" data-price="299">$299</span></div>
+                            <div class="cap-row"><span>8TB HDD</span><span class="cap-price" data-price="349">$349</span></div>
+                            <div class="cap-row"><span>10TB HDD</span><span class="cap-price" data-price="399">$399</span></div>
+                        </div>
+                    </div>
+                    <div class="pricing-card">
+                        <h3 class="pricing-name" data-i18n="pricing.firmware">Firmware Fix</h3>
+                        <div class="pricing-capacities">
+                            <div class="cap-row"><span>500GB HDD</span><span class="cap-price" data-price="249">$249</span></div>
+                            <div class="cap-row"><span>1TB HDD</span><span class="cap-price" data-price="279">$279</span></div>
+                            <div class="cap-row"><span>2TB HDD</span><span class="cap-price" data-price="299">$299</span></div>
+                            <div class="cap-row"><span>3TB HDD</span><span class="cap-price" data-price="329">$329</span></div>
+                            <div class="cap-row"><span>4TB HDD</span><span class="cap-price" data-price="349">$349</span></div>
+                            <div class="cap-row"><span>5TB HDD</span><span class="cap-price" data-price="379">$379</span></div>
+                            <div class="cap-row"><span>6TB HDD</span><span class="cap-price" data-price="399">$399</span></div>
+                            <div class="cap-row"><span>8TB HDD</span><span class="cap-price" data-price="449">$449</span></div>
+                            <div class="cap-row"><span>10TB HDD</span><span class="cap-price" data-price="499">$499</span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== PRICE CALCULATOR ===== -->
+        <section id="calculator" class="section calculator-section">
+            <div class="container calculator-container">
+                <h2 class="section-title" data-i18n-html="calc.title">Instant <span class="green-underline">Estimate</span></h2>
+                <div class="calculator-form">
+                    <div class="form-row">
+                        <label data-i18n="calc.service">Service Type</label>
+                        <select id="serviceType">
+                            <option value="logical" data-i18n="calc.svc.logical">Logical Recovery</option>
+                            <option value="physical" data-i18n="calc.svc.physical">Physical Repair</option>
+                            <option value="pcb" data-i18n="calc.svc.pcb">PCB Swap/Repair</option>
+                            <option value="firmware" data-i18n="calc.svc.firmware">Firmware Fix</option>
+                        </select>
+                    </div>
+                    <div class="form-row">
+                        <label data-i18n="calc.capacity">Drive Capacity</label>
+                        <select id="capacity">
+                            <option value="500">500GB</option>
+                            <option value="1000">1TB</option>
+                            <option value="2000">2TB</option>
+                            <option value="3000">3TB</option>
+                            <option value="4000">4TB</option>
+                            <option value="5000">5TB</option>
+                            <option value="6000">6TB</option>
+                            <option value="8000">8TB</option>
+                            <option value="10000">10TB</option>
+                        </select>
+                    </div>
+                    <div class="form-row">
+                        <label data-i18n="calc.condition">Physical Condition</label>
+                        <select id="condition">
+                            <option value="good" data-i18n="calc.cond.good">No physical damage</option>
+                            <option value="clicking" data-i18n="calc.cond.clicking">Clicking / stuck heads</option>
+                            <option value="pcb_burn" data-i18n="calc.cond.pcb_burn">Burnt PCB</option>
+                        </select>
+                    </div>
+                    <div class="form-row">
+                        <label data-i18n="calc.turnaround">Turnaround</label>
+                        <select id="turnaround">
+                            <option value="standard" data-i18n="calc.turn.standard">Standard (3-5 days)</option>
+                            <option value="express" data-i18n="calc.turn.express">Express (24-48h) +$99</option>
+                            <option value="emergency" data-i18n="calc.turn.emergency">Emergency (same day) +$249</option>
+                        </select>
+                    </div>
+                    <div class="form-row checkbox-row">
+                        <label><input type="checkbox" id="diagnosticConsent" checked><span data-i18n="calc.diag"> Diagnostic Fee Consent ($49, waived if repair)</span></label>
+                    </div>
+                    <div class="estimated-price" id="priceDisplay">
+                        <span class="price-label" data-i18n="calc.estimated">Estimated total:</span>
+                        <span class="price-value" id="estimatedValue">$299</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== PROCESS SECTION ===== -->
+        <section id="process" class="section process-section">
+            <div class="container">
+                <h2 class="section-title" data-i18n-html="process.title">Our <span class="green-underline">Process</span></h2>
+                <div class="timeline">
+                    <div class="timeline-step">
+                        <div class="step-icon">
+                            <svg class="icon" aria-hidden="true"><use href="assets/sprites/sprites.svg#icon-inbox"></use></svg>
+                        </div>
+                        <span class="step-title" data-i18n="process.step1">Receive</span>
+                        <div class="step-hover-desc" data-i18n="process.step1.desc">We log your drive into our cleanroom inventory, assign a case ID.</div>
+                    </div>
+                    <div class="timeline-step">
+                        <div class="step-icon">
+                            <svg class="icon" aria-hidden="true"><use href="assets/sprites/sprites.svg#icon-stethoscope"></use></svg>
+                        </div>
+                        <span class="step-title" data-i18n="process.step2">Diagnosis</span>
+                        <div class="step-hover-desc" data-i18n="process.step2.desc">Deep evaluation with PC3000, oscilloscope & head mapping.</div>
+                    </div>
+                    <div class="timeline-step">
+                        <div class="step-icon">
+                            <svg class="icon" aria-hidden="true"><use href="assets/sprites/sprites.svg#icon-tools"></use></svg>
+                        </div>
+                        <span class="step-title" data-i18n="process.step3">Repair</span>
+                        <div class="step-hover-desc" data-i18n="process.step3.desc">Cleanroom head swaps, firmware rebuild, or PCB rework.</div>
+                    </div>
+                    <div class="timeline-step">
+                        <div class="step-icon">
+                            <svg class="icon" aria-hidden="true"><use href="assets/sprites/sprites.svg#icon-check-double"></use></svg>
+                        </div>
+                        <span class="step-title" data-i18n="process.step4">Verification</span>
+                        <div class="step-hover-desc" data-i18n="process.step4.desc">Full sector check, file listing, and integrity validation.</div>
+                    </div>
+                    <div class="timeline-step">
+                        <div class="step-icon">
+                            <svg class="icon" aria-hidden="true"><use href="assets/sprites/sprites.svg#icon-shipping-fast"></use></svg>
+                        </div>
+                        <span class="step-title" data-i18n="process.step5">Return</span>
+                        <div class="step-hover-desc" data-i18n="process.step5.desc">Secure data return on new media or encrypted download.</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== PORTFOLIO SECTION ===== -->
+        <section id="portfolio" class="section portfolio-section">
+            <div class="container">
+                <h2 class="section-title" data-i18n-html="portfolio.title">Our <span class="green-underline">Work</span></h2>
+                <div class="portfolio-grid" id="portfolioGrid"></div>
+            </div>
+        </section>
+
+        <!-- Lightbox Modal -->
+        <div id="lightboxModal" class="lightbox-modal">
+            <span class="close-lightbox">&times;</span>
+            <img class="lightbox-content" id="lightboxImg" alt="">
+            <a class="prev-lightbox" href="#" aria-label="Previous"></a>
+            <a class="next-lightbox" href="#" aria-label="Next"></a>
+        </div>
+
+        <!-- ===== FAQ SECTION ===== -->
+        <section id="faq" class="section faq-section">
+            <div class="container faq-two-col">
+                <div class="faq-left">
+                    <h2 class="section-title-left" data-i18n="faq.title">Common Questions</h2>
+                    <div class="accordion">
+                        <div class="accordion-item active">
+                            <div class="accordion-header">
+                                <span data-i18n="faq.q1">Do you offer free diagnosis?</span>
+                                <svg class="icon accordion-icon" aria-hidden="true"><use href="assets/sprites/sprites.svg#icon-minus"></use></svg>
+                            </div>
+                            <div class="accordion-content">
+                                <p data-i18n="faq.a1">Yes, we evaluate the drive and provide a firm quote before any work begins.</p>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <div class="accordion-header">
+                                <span data-i18n="faq.q2">Is my data safe and confidential?</span>
+                                <svg class="icon accordion-icon" aria-hidden="true"><use href="assets/sprites/sprites.svg#icon-plus"></use></svg>
+                            </div>
+                            <div class="accordion-content">
+                                <p data-i18n="faq.a2">Absolutely. We operate a cleanroom and sign NDAs upon request.</p>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <div class="accordion-header">
+                                <span data-i18n="faq.q3">How long does HDD repair take?</span>
+                                <svg class="icon accordion-icon" aria-hidden="true"><use href="assets/sprites/sprites.svg#icon-plus"></use></svg>
+                            </div>
+                            <div class="accordion-content">
+                                <p data-i18n="faq.a3">Logical recovery 24-48 hours. Physical repair 3-5 business days.</p>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <div class="accordion-header">
+                                <span data-i18n="faq.q4">What if you can't recover the data?</span>
+                                <svg class="icon accordion-icon" aria-hidden="true"><use href="assets/sprites/sprites.svg#icon-plus"></use></svg>
+                            </div>
+                            <div class="accordion-content">
+                                <p data-i18n="faq.a4">No Data, No Charge policy applies to all logical recoveries.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="faq-right">
+                    <h3 data-i18n="faq.help">Still Need Help?</h3>
+                    <p class="faq-callout" data-i18n="faq.callout">Call us 24/7</p>
+                    <a href="tel:+18005551234" class="faq-phone">+1 (800) 555-1234</a>
+                    <div class="faq-extra" data-i18n="faq.or">or email</div>
+                    <div class="faq-extra">
+                        <a href="mailto:recovery@safesector.com">recovery@safesector.com</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== BLOG SECTION (SWIPER) ===== -->
+        <section id="blog" class="section blog-swiper-section">
+            <div class="container">
+                <h2 class="section-title" data-i18n-html="blog.title">From the <span class="green-underline">Lab</span></h2>
+                <div class="swiper blog-swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="blog-card">
+                                <div class="blog-img-placeholder">
+                                    <img src="assets/imgs/blog/blog-1.jpg" alt="" loading="lazy">
+                                </div>
+                                <div class="blog-content">
+                                    <h4 data-i18n="blog.p1.title">Understanding SMR vs CMR for recovery</h4>
+                                    <div class="blog-meta">
+                                        <svg class="icon" aria-hidden="true"><use href="assets/sprites/sprites.svg#icon-calendar"></use></svg>
+                                        <span data-i18n="blog.p1.date">March 12, 2026</span>
+                                    </div>
+                                    <p data-i18n="blog.p1.excerpt">Shingled Magnetic Recording brings capacity but complicates data retrieval. Translator rebuild and media cache preservation are key.</p>
+                                </div>
+                                <div class="blog-actions">
+                                    <a href="single.html" data-i18n="blog.readmore">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="blog-card">
+                                <div class="blog-img-placeholder">
+                                    <img src="assets/imgs/blog/blog-2.jpg" alt="" loading="lazy">
+                                </div>
+                                <div class="blog-content">
+                                    <h4 data-i18n="blog.p2.title">Click of death: myths & fixes</h4>
+                                    <div class="blog-meta">
+                                        <svg class="icon" aria-hidden="true"><use href="assets/sprites/sprites.svg#icon-calendar"></use></svg>
+                                        <span data-i18n="blog.p2.date">Feb 28, 2026</span>
+                                    </div>
+                                    <p data-i18n="blog.p2.excerpt">Not every clicking sound means head failure. Sometimes it's a PCB issue or spindle seizure. We break down the diagnostic steps.</p>
+                                </div>
+                                <div class="blog-actions">
+                                    <a href="single.html" data-i18n="blog.readmore">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="blog-card">
+                                <div class="blog-img-placeholder">
+                                    <img src="assets/imgs/blog/blog-3.jpg" alt="" loading="lazy">
+                                </div>
+                                <div class="blog-content">
+                                    <h4 data-i18n="blog.p3.title">Why cleanroom matters</h4>
+                                    <div class="blog-meta">
+                                        <svg class="icon" aria-hidden="true"><use href="assets/sprites/sprites.svg#icon-calendar"></use></svg>
+                                        <span data-i18n="blog.p3.date">Jan 15, 2026</span>
+                                    </div>
+                                    <p data-i18n="blog.p3.excerpt">A single dust particle can destroy platter surface. We show how our ISO 5 cleanroom prevents microscopic damage during head swaps.</p>
+                                </div>
+                                <div class="blog-actions">
+                                    <a href="single.html" data-i18n="blog.readmore">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="blog-card">
+                                <div class="blog-img-placeholder">
+                                    <img src="assets/imgs/blog/blog-4.jpg" alt="" loading="lazy">
+                                </div>
+                                <div class="blog-content">
+                                    <h4 data-i18n="blog.p4.title">Firmware Corruption: When Drives Forget</h4>
+                                    <div class="blog-meta">
+                                        <svg class="icon" aria-hidden="true"><use href="assets/sprites/sprites.svg#icon-calendar"></use></svg>
+                                        <span data-i18n="blog.p4.date">Dec 22, 2025</span>
+                                    </div>
+                                    <p data-i18n="blog.p4.excerpt">G-list overflow, translator failure, or damaged SA modules. Using PC3000 to rebuild firmware without losing user data.</p>
+                                </div>
+                                <div class="blog-actions">
+                                    <a href="single.html" data-i18n="blog.readmore">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="blog-card">
+                                <div class="blog-img-placeholder">
+                                    <img src="assets/imgs/blog/blog-1.jpg" alt="" loading="lazy">
+                                </div>
+                                <div class="blog-content">
+                                    <h4 data-i18n="blog.p1.title">Understanding SMR vs CMR for recovery</h4>
+                                    <div class="blog-meta">
+                                        <svg class="icon" aria-hidden="true"><use href="assets/sprites/sprites.svg#icon-calendar"></use></svg>
+                                        <span data-i18n="blog.p1.date">March 12, 2026</span>
+                                    </div>
+                                    <p data-i18n="blog.p1.excerpt">Shingled Magnetic Recording brings capacity but complicates data retrieval. Translator rebuild and media cache preservation are key.</p>
+                                </div>
+                                <div class="blog-actions">
+                                    <a href="single.html" data-i18n="blog.readmore">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="blog-card">
+                                <div class="blog-img-placeholder">
+                                    <img src="assets/imgs/blog/blog-2.jpg" alt="" loading="lazy">
+                                </div>
+                                <div class="blog-content">
+                                    <h4 data-i18n="blog.p2.title">Click of death: myths & fixes</h4>
+                                    <div class="blog-meta">
+                                        <svg class="icon" aria-hidden="true"><use href="assets/sprites/sprites.svg#icon-calendar"></use></svg>
+                                        <span data-i18n="blog.p2.date">Feb 28, 2026</span>
+                                    </div>
+                                    <p data-i18n="blog.p2.excerpt">Not every clicking sound means head failure. Sometimes it's a PCB issue or spindle seizure. We break down the diagnostic steps.</p>
+                                </div>
+                                <div class="blog-actions">
+                                    <a href="single.html" data-i18n="blog.readmore">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="blog-card">
+                                <div class="blog-img-placeholder">
+                                    <img src="assets/imgs/blog/blog-3.jpg" alt="" loading="lazy">
+                                </div>
+                                <div class="blog-content">
+                                    <h4 data-i18n="blog.p3.title">Why cleanroom matters</h4>
+                                    <div class="blog-meta">
+                                        <svg class="icon" aria-hidden="true"><use href="assets/sprites/sprites.svg#icon-calendar"></use></svg>
+                                        <span data-i18n="blog.p3.date">Jan 15, 2026</span>
+                                    </div>
+                                    <p data-i18n="blog.p3.excerpt">A single dust particle can destroy platter surface. We show how our ISO 5 cleanroom prevents microscopic damage during head swaps.</p>
+                                </div>
+                                <div class="blog-actions">
+                                    <a href="single.html" data-i18n="blog.readmore">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="blog-card">
+                                <div class="blog-img-placeholder">
+                                    <img src="assets/imgs/blog/blog-4.jpg" alt="" loading="lazy">
+                                </div>
+                                <div class="blog-content">
+                                    <h4 data-i18n="blog.p4.title">Firmware Corruption: When Drives Forget</h4>
+                                    <div class="blog-meta">
+                                        <svg class="icon" aria-hidden="true"><use href="assets/sprites/sprites.svg#icon-calendar"></use></svg>
+                                        <span data-i18n="blog.p4.date">Dec 22, 2025</span>
+                                    </div>
+                                    <p data-i18n="blog.p4.excerpt">G-list overflow, translator failure, or damaged SA modules. Using PC3000 to rebuild firmware without losing user data.</p>
+                                </div>
+                                <div class="blog-actions">
+                                    <a href="single.html" data-i18n="blog.readmore">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-pagination"></div>
+                </div>
+                <div class="blog-viewall-row">
+                    <a href="archive.html" class="btn btn-outline" data-i18n="blog.viewall">View All</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== CUSTOMER TESTIMONIALS (SWIPER) ===== -->
+        <section id="testimonials" class="section testimonials-section">
+            <div class="container">
+                <h2 class="section-title" data-i18n-html="test.title">What Our <span class="green-underline">Clients Say</span></h2>
+                <div class="swiper testimonials-swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="testimonial-card">
+                                <div class="testimonial-avatar">AR</div>
+                                <div class="testimonial-content">
+                                    <p class="testimonial-text" data-i18n="test.t1">“SafeSector recovered my 4TB drive after a head crash. They explained every step, and the final bill was exactly the estimate. Unreal professionalism!”</p>
+                                    <div class="testimonial-stars">★★★★★</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="testimonial-card">
+                                <div class="testimonial-avatar">DK</div>
+                                <div class="testimonial-content">
+                                    <p class="testimonial-text" data-i18n="test.t2">“My SSD was dead – no detection. They did a chip-off recovery and got 100% of my thesis back. Forever grateful.”</p>
+                                    <div class="testimonial-stars">★★★★★</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="testimonial-card">
+                                <div class="testimonial-avatar">KL</div>
+                                <div class="testimonial-content">
+                                    <p class="testimonial-text" data-i18n="test.t3">“Emergency service on a Saturday? They answered and fixed my RAID array in 2 days. Absolute legends.”</p>
+                                    <div class="testimonial-stars">★★★★★</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="testimonial-card">
+                                <div class="testimonial-avatar">JM</div>
+                                <div class="testimonial-content">
+                                    <p class="testimonial-text" data-i18n="test.t4">“Cleanroom head swap on my 10TB helium drive – they pulled off the impossible. Worth every penny.”</p>
+                                    <div class="testimonial-stars">★★★★★</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== CERTIFICATIONS SECTION ===== -->
+        <section id="certifications" class="section certs-section">
+            <div class="container">
+                <h2 class="section-title" data-i18n-html="certs.title">Trusted <span class="green-underline">Certifications</span></h2>
+                <div class="certs-grid">
+                    <div class="cert-item">
+                        <img src="assets/imgs/cert.png" alt="">
+                        <span data-i18n="cert1">ISO 5 Cleanroom</span>
+                    </div>
+                    <div class="cert-item">
+                        <img src="assets/imgs/cert.png" alt="">
+                        <span data-i18n="cert2">PC3000 Data Extractor</span>
+                    </div>
+                    <div class="cert-item">
+                        <img src="assets/imgs/cert.png" alt="">
+                        <span data-i18n="cert3">ACE Lab Partner</span>
+                    </div>
+                    <div class="cert-item">
+                        <img src="assets/imgs/cert.png" alt="">
+                        <span data-i18n="cert4">National Data Lab Member</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== CONTACT SECTION ===== -->
+        <section id="contact" class="section contact-section">
+            <div class="container contact-grid">
+                <div class="contact-info">
+                    <h3 data-i18n="contact.lab">SafeSector Lab</h3>
+                    <div class="map-placeholder">
+                        <iframe src="https://www.openstreetmap.org/export/embed.html?bbox=-0.1357%2C51.5186%2C-0.1557%2C51.5286&layer=mapnik" title="Lab location map" loading="lazy"></iframe>
+                    </div>
+                    <ul class="contact-details">
+                        <li>
+                            <svg class="icon" aria-hidden="true"><use href="assets/sprites/sprites.svg#icon-phone"></use></svg>
+                            <span dir="ltr">+1 (800) 555-1234</span>
+                        </li>
+                        <li>
+                            <svg class="icon" aria-hidden="true"><use href="assets/sprites/sprites.svg#icon-envelope"></use></svg>
+                            <span dir="ltr">recovery@safesector.com</span>
+                        </li>
+                        <li>
+                            <svg class="icon" aria-hidden="true"><use href="assets/sprites/sprites.svg#icon-map-marker"></use></svg>
+                            <span data-i18n="contact.addr">221B Baker Street, Data District</span>
+                        </li>
+                        <li>
+                            <svg class="icon" aria-hidden="true"><use href="assets/sprites/sprites.svg#icon-building"></use></svg>
+                            <span data-i18n="contact.clean">Cleanroom ISO 5 Class 100</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="contact-form">
+                    <form id="dummyContact" name="dummyContact">
+                        <input type="text" placeholder="Name" required data-i18n-ph="form.name">
+                        <input type="email" placeholder="Email" required data-i18n-ph="form.email">
+                        <input type="text" placeholder="Subject" data-i18n-ph="form.subject">
+                        <textarea placeholder="Message" rows="4" data-i18n-ph="form.message"></textarea>
+                        <button type="submit" class="btn btn-primary"><span data-i18n="form.send">Send Message</span></button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="site-footer">
+        <div class="footer-container">
+            <div class="footer-copyright" data-i18n="footer.copyright">
+                © 2026 SafeSector. All rights reserved.
+            </div>
+            <div class="footer-links">
+                <a href="index.html" data-i18n="nav.home">Home</a> ·
+                <a href="index.html#services" data-i18n="nav.services">Services</a> ·
+                <a href="index.html#pricing" data-i18n="nav.pricing">Pricing</a> ·
+                <a href="index.html#faq" data-i18n="nav.faq">FAQ</a> ·
+                <a href="index.html#blog" data-i18n="nav.blog">Blog</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <button id="scrollToTopBtn" class="scroll-to-top" aria-label="Scroll to top" data-i18n-aria="aria.top">
+        <svg class="icon" aria-hidden="true"><use href="assets/sprites/sprites.svg#icon-arrow-up"></use></svg>
+    </button>
+
+    <script src="assets/js/swiper.js"></script>
+    <script src="assets/js/lang.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
