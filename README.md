@@ -10,7 +10,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/ARGDeveloperShayan/SafeSector">
+  <a href="https://github.com/ARGDeveloperShayan/safesector-html-template">
     <img src="assets/imgs/logo.png" alt="SafeSector Logo">
   </a>
 
@@ -19,12 +19,12 @@
   <p align="center">
     A bilingual (EN / FA) marketing website theme for a professional HDD &amp; SSD data recovery lab.
     <br />
-    <a href="https://github.com/ARGDeveloperShayan/SafeSector"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/ARGDeveloperShayan/safesector-html-template"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/ARGDeveloperShayan/SafeSector/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
+    <a href="https://github.com/ARGDeveloperShayan/safesector-html-template/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
     &middot;
-    <a href="https://github.com/ARGDeveloperShayan/SafeSector/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
+    <a href="https://github.com/ARGDeveloperShayan/safesector-html-template/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
   </p>
 </div>
 
@@ -119,7 +119,7 @@ You only need a modern browser to view the theme. For the best experience (corre
 
 1. Clone the repository
    ```sh
-   git clone https://github.com/ARGDeveloperShayan/SafeSector.git
+   git clone https://github.com/ARGDeveloperShayan/safesector-html-template.git
    ```
 2. Enter the project folder
    ```sh
@@ -202,7 +202,7 @@ Static prices live in the pricing tables as `data-price` attributes (USD is the 
 | Portfolio photos | `assets/imgs/portfolio/job-1.jpg` … `job-6.jpg` |
 | Icons | `assets/sprites/sprites.svg` |
 
-_For more details, refer to the [documentation](https://github.com/ARGDeveloperShayan/SafeSector)._
+_For more details, refer to the [documentation](https://github.com/ARGDeveloperShayan/safesector-html-template)._
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -222,7 +222,7 @@ _For more details, refer to the [documentation](https://github.com/ARGDeveloperS
 - [ ] Persist the selected blog category as a URL query parameter
 - [ ] Ship a `manifest.json` + service worker for offline PWA support
 
-See the [open issues](https://github.com/ARGDeveloperShayan/SafeSector/issues) for a full list of proposed features (and known issues).
+See the [open issues](https://github.com/ARGDeveloperShayan/safesector-html-template/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -244,7 +244,7 @@ Don't forget to give the project a star! Thanks again!
 
 ### Top contributors:
 
-<a href="https://github.com/ARGDeveloperShayan/SafeSector/graphs/contributors">
+<a href="https://github.com/ARGDeveloperShayan/safesector-html-template/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=ARGDeveloperShayan/SafeSector" alt="contrib.rocks image" />
 </a>
 
@@ -260,7 +260,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 Shayan Nateghi - shayannateghi90@gmail.com
 
-Project Link: [https://github.com/ARGDeveloperShayan/SafeSector](https://github.com/ARGDeveloperShayan/SafeSector)
+Project Link: [https://github.com/ARGDeveloperShayan/safesector-html-template](https://github.com/ARGDeveloperShayan/safesector-html-template)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -280,15 +280,15 @@ Project Link: [https://github.com/ARGDeveloperShayan/SafeSector](https://github.
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [contributors-shield]: https://img.shields.io/github/contributors/ARGDeveloperShayan/SafeSector.svg?style=for-the-badge
-[contributors-url]: https://github.com/ARGDeveloperShayan/SafeSector/graphs/contributors
+[contributors-url]: https://github.com/ARGDeveloperShayan/safesector-html-template/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/ARGDeveloperShayan/SafeSector.svg?style=for-the-badge
-[forks-url]: https://github.com/ARGDeveloperShayan/SafeSector/network/members
+[forks-url]: https://github.com/ARGDeveloperShayan/safesector-html-template/network/members
 [stars-shield]: https://img.shields.io/github/stars/ARGDeveloperShayan/SafeSector.svg?style=for-the-badge
-[stars-url]: https://github.com/ARGDeveloperShayan/SafeSector/stargazers
+[stars-url]: https://github.com/ARGDeveloperShayan/safesector-html-template/stargazers
 [issues-shield]: https://img.shields.io/github/issues/ARGDeveloperShayan/SafeSector.svg?style=for-the-badge
-[issues-url]: https://github.com/ARGDeveloperShayan/SafeSector/issues
+[issues-url]: https://github.com/ARGDeveloperShayan/safesector-html-template/issues
 [license-shield]: https://img.shields.io/github/license/ARGDeveloperShayan/SafeSector.svg?style=for-the-badge
-[license-url]: https://github.com/ARGDeveloperShayan/SafeSector/blob/main/LICENSE.txt
+[license-url]: https://github.com/ARGDeveloperShayan/safesector-html-template/blob/main/LICENSE.txt
 
 [HTML5-shield]: https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white
 [HTML5-url]: https://developer.mozilla.org/en-US/docs/Web/HTML
